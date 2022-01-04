@@ -12,7 +12,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 translator = Translator()
-token = '5050129218:AAFgvR1WSH4UhgvhorPOHl6UqRGug8IYE3A'
+token = '1963427641:AAFrIhOyRCbK5vjrJkRhh8g3oDS0OywTHnY'
 bot = Bot(token)
 IN = range(1)
 form = """
@@ -22,7 +22,8 @@ For Example -
 <strong>ፍቅር to English </strong>  or 
 <strong>love to hindu </strong>
 <strong>Life is just a chance to grow a soul to amharic</strong>
-then send it to me"""
+then send it to me
+by : @MERCENARYCAPTAIN"""
 
 LANGUAGES = {
     'af': 'afrikaans',
